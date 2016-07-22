@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass'
 gem 'sprockets'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 # Use Unicorn as the app server
 # gem 'unicorn'
