@@ -1,7 +1,5 @@
 class StaticPagesController < ApplicationController
   
-  # layout false
-  
   def home
   end
 
@@ -9,5 +7,8 @@ class StaticPagesController < ApplicationController
   end
 
   def about
+  end
+
+  def contact
   end
 end
