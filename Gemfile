@@ -27,6 +27,8 @@ gem 'bootstrap-sass'
 gem 'sprockets'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'puma'
+gem 'faker'
+gem 'bootstrap-will_paginate'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -45,6 +47,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'turnout'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
   gem 'guard'
